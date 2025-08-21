@@ -24,4 +24,4 @@ none
 
 Sets the asynchronous timer to 0 frames. See [SPUSYNC](164_SPUSYNC) for details.
 
-This does something to access hardware, but I don't know what. Calling it causes some drives to make noises.
+SPU is the sound processing unit on the PS1. This is used to ready the timer. SPUSYNC is used to synchronise with audio playback. This is used in the Eyes on Me scene to sync game dialogue to the song.
